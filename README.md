@@ -16,5 +16,5 @@ python main.py --batch_size 4 --stepsize 3-4 --gpu 1 --savedir 0305-bsds --encod
 Following the previous methods. such as RCF and PiDiNet
 
 ![Result of BSDS](./Imgs/BSDS.png "Result of BSDS")
-![Img of BSDS](https://example.com/images/example.jpg "Img of BSDS")
+![Img of BSDS](./Imgs/Imgs-bsds.png "Img of BSDS")
 
