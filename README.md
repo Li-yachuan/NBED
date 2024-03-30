@@ -18,3 +18,5 @@ Following the previous methods. such as RCF and PiDiNet
 ![Result of BSDS](./Imgs/BSDS.png "Result of BSDS")
 ![Img of BSDS](./Imgs/Imgs-bsds.png "Img of BSDS")
 
+The result of BSDS500 can be download hear
+https://drive.google.com/file/d/1PiPklsH7w6zNxdGWW-JpnUsFOdiYLHwG/view?usp=sharing
