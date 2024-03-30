@@ -14,3 +14,7 @@ python main.py --batch_size 4 --stepsize 3-4 --gpu 1 --savedir 0305-bsds --encod
 '''
 ## Eval NBED
 Following the previous methods. such as RCF and PiDiNet
+
+![Result of BSDS](https://example.com/images/example.jpg "Result of BSDS")
+![Img of BSDS](https://example.com/images/example.jpg "Img of BSDS")
+
