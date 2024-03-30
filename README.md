@@ -3,7 +3,7 @@ Code of paper "A new baseline for edge detection: Make Encoder-Decoder great aga
 ## Preparing the dataset
 Download the dataset to any dir and point to the dir in the code  
 -BSDS500 following the setting of "The Treasure Beneath Multiple Annotations: An Uncertainty-aware Edge Detector"  
--NYUDv2 following the setting of "Pixel Difference Networks for Efficient Edge Detection"  
+-NYUDv2 following the setting of "Pixel Difference Networks for Efficient Edge Detection"  and random crop to 400*400
 -BIPED following the setting of "Dense Extreme Inception Network for Edge Detection"  
 ## Preparing the pretrained weights
 Down it from https://huggingface.co/sail/dl/resolve/main/caformer/caformer_m36_384_in21ft1k.pth
