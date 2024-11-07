@@ -3,7 +3,7 @@ Code of paper "A new baseline for edge detection: Make Encoder-Decoder great aga
 
 ## Test the pretrained model  
 Modify the values of ckpt and img in inference.py. ckpt on BSDS can be found from https://drive.google.com/file/d/1PiPklsH7w6zNxdGWW-JpnUsFOdiYLHwG/view?usp=drive_link
-
+And running follow command
 ```
 python inference.py
 ```
