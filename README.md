@@ -2,7 +2,8 @@
 Code of paper "A new baseline for edge detection: Make Encoder-Decoder great again"
 
 ## Test NBED  
-Modify the values of ckpt and img in inference.py. ckpt on BSDS can be found from https://drive.google.com/file/d/1PiPklsH7w6zNxdGWW-JpnUsFOdiYLHwG/view?usp=drive_link
+Modify the values of ckpt and img in inference.py. ckpt on BSDS can be found from 
+https://drive.google.com/file/d/1TKg37m3KWuv4A8FTlXJ-N20Ar46PmRdH/view?usp=sharing
 And running command
 ```
 python inference.py
