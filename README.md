@@ -33,4 +33,4 @@ https://drive.google.com/file/d/1PiPklsH7w6zNxdGWW-JpnUsFOdiYLHwG/view?usp=shari
 
 ## UPDATE  
 checkpoint on BIPED is [here](https://drive.google.com/file/d/1IJO3VYrzi1Rp6YS4CzawZTrggxzz5cBx/view?usp=drive_link)  
-ODS/OIS on BIPED is a little arror, due to a wrong tolerate is used. And it is corrected in [version 2](https://arxiv.org/pdf/2409.14976)  Thanks for the warning from [yx-yyds](https://github.com/yx-yyds)
+ODS/OIS on BIPED is a little error, due to a wrong tolerance is used. And it is corrected in [version 2](https://arxiv.org/pdf/2409.14976)  Thanks for the reminder from [yx-yyds](https://github.com/yx-yyds)
