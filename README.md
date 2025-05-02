@@ -33,11 +33,11 @@ The result of BSDS500 can be download here
 https://drive.google.com/file/d/1PiPklsH7w6zNxdGWW-JpnUsFOdiYLHwG/view?usp=sharing
 
 ## 3. UPDATE  
-### release the ckpt of BIPED
+### 3.1 release the ckpt of BIPED
 checkpoint on BIPED is [here](https://drive.google.com/file/d/1IJO3VYrzi1Rp6YS4CzawZTrggxzz5cBx/view?usp=drive_link)  
-### Fix bugs
+### 3.2 Fix bugs
 ODS/OIS on BIPED is a little error, due to a wrong tolerance is used. And it is corrected in [version 2](https://arxiv.org/pdf/2409.14976)  Thanks for the reminder from [yx-yyds](https://github.com/yx-yyds)
 
-### **We released [DDN](https://github.com/Li-yachuan/DDN), the follow-up work of NBED.**
+### 3.3 **We released [DDN](https://github.com/Li-yachuan/DDN), the follow-up work of NBED.**
 Main features: By introducing Evidence Lower Bound loss and learnable Gaussian distributions, DDN is capable of generating multi-granularity edges. The ODS of DDN on the BSDS500 dataset is 0.867, which is 0.022 higher than that of NBED (0.845)
 
