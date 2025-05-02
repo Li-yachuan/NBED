@@ -1,6 +1,15 @@
 # NBED
 Code of paper [A new baseline for edge detection: Make Encoder-Decoder great again](https://arxiv.org/pdf/2409.14976)
 
+
+# **Update**
+**We released [DDN](https://github.com/Li-yachuan/DDN), the follow-up work of NBED.**
+Main features: By introducing Evidence Lower Bound loss and learnable Gaussian distributions, DDN is capable of generating multi-granularity edges. The ODS of DDN on the BSDS500 dataset is 0.867, which is 0.022 higher than that of NBED (0.845)
+
+
+
+
+
 ## Test NBED  
 Modify the values of ckpt and img in inference.py. ckpt on BSDS can be found from 
 https://drive.google.com/file/d/1TKg37m3KWuv4A8FTlXJ-N20Ar46PmRdH/view?usp=sharing
