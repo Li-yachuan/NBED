@@ -1,6 +1,34 @@
 # NBED
 Code of paper [A new baseline for edge detection: Make Encoder-Decoder great again](https://arxiv.org/pdf/2409.14976)
 
+
+## UPDATE  
+### release the ckpt of BIPED
+checkpoint on BIPED is [here](https://drive.google.com/file/d/1IJO3VYrzi1Rp6YS4CzawZTrggxzz5cBx/view?usp=drive_link)  
+### Fix bugs
+ODS/OIS on BIPED is a little error, due to a wrong tolerance is used. And it is corrected in [version 2](https://arxiv.org/pdf/2409.14976)  Thanks for the reminder from [yx-yyds](https://github.com/yx-yyds)
+
+### **We released [DDN](https://github.com/Li-yachuan/DDN), the follow-up work of NBED.**
+Main features: By introducing Evidence Lower Bound loss and learnable Gaussian distributions, DDN is capable of generating multi-granularity edges. The ODS of DDN on the BSDS500 dataset is 0.867, which is 0.022 higher than that of NBED (0.845)
+
+### 2026.04.11 The paper has appeared in _Signal Processing: Image Communication_
+If you find this project useful in your research, please consider citing our paper:
+```bibtex
+@article{LI2026117485,
+title = {A new baseline for edge detection: Make encoder–decoder great again},
+journal = {Signal Processing: Image Communication},
+volume = {142},
+pages = {117485},
+year = {2026},
+issn = {0923-5965},
+doi = {https://doi.org/10.1016/j.image.2026.117485},
+url = {https://www.sciencedirect.com/science/article/pii/S0923596526000081},
+author = {Yachuan Li and Xavier Soria Poma and Yongke Xi and Guanlin Li and Chaozhi Yang and Qian Xiao and Yun Bai and Zongmin Li}
+}
+```
+
+
+
 ## 0. Pip environment
 
 ```
@@ -37,12 +65,37 @@ Following the previous methods. such as RCF and PiDiNet
 The result of BSDS500 can be download here
 https://drive.google.com/file/d/1PiPklsH7w6zNxdGWW-JpnUsFOdiYLHwG/view?usp=sharing
 
-## 3. UPDATE  
-### 3.1 release the ckpt of BIPED
-checkpoint on BIPED is [here](https://drive.google.com/file/d/1IJO3VYrzi1Rp6YS4CzawZTrggxzz5cBx/view?usp=drive_link)  
-### 3.2 Fix bugs
-ODS/OIS on BIPED is a little error, due to a wrong tolerance is used. And it is corrected in [version 2](https://arxiv.org/pdf/2409.14976)  Thanks for the reminder from [yx-yyds](https://github.com/yx-yyds)
+# Acknowledgement & Citation
 
-### 3.3 **We released [DDN](https://github.com/Li-yachuan/DDN), the follow-up work of NBED.**
-Main features: By introducing Evidence Lower Bound loss and learnable Gaussian distributions, DDN is capable of generating multi-granularity edges. The ODS of DDN on the BSDS500 dataset is 0.867, which is 0.022 higher than that of NBED (0.845)
+```angular2html
+@inproceedings{liu2017richer,
+  title={Richer convolutional features for edge detection},
+  author={Liu, Yun and Cheng, Ming-Ming and Hu, Xiaowei and Wang, Kai and Bai, Xiang},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={3000--3009},
+  year={2017}
+}
+```
+
+```angular2html
+@inproceedings{poma2020dense,
+  title={Dense extreme inception network: Towards a robust cnn model for edge detection},
+  author={Poma, Xavier Soria and Riba, Edgar and Sappa, Angel},
+  booktitle={Proceedings of the IEEE/CVF winter conference on applications of computer vision},
+  pages={1923--1932},
+  year={2020}
+}
+```
+```
+@inproceedings{zhou2024muge,
+  title={Muge: Multiple granularity edge detection},
+  author={Zhou, Caixia and Huang, Yaping and Pu, Mengyang and Guan, Qingji and Deng, Ruoxi and Ling, Haibin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={25952--25962},
+  year={2024}
+}
+```
+
+
+
 
